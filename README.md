@@ -5,6 +5,8 @@ Click the "Files" tab on the left sidebar.
 Click the "Upload" button near the top right corner.
 Select your .py file and upload it.
 You'll see your file listed under "Files" in the left sidebar.
+
+
 2. Mount Google Drive (Optional, but Recommended for Datasets):
 
 If your dataset is stored in your Google Drive, mounting your Drive allows you to access it from Colab.
@@ -15,6 +17,8 @@ drive.mount('/content/drive')
 Use code with caution.
 content_copy
 Follow the on-screen instructions to grant Colab access to your Drive. This process might require entering an authorization code.
+
+
 3. Upload Your Dataset:
 
 Option A: Uploading from Local Machine (for small datasets):
@@ -30,6 +34,8 @@ Python
 !cp <path_in_drive> /content/
 Use code with caution.
 content_copy
+
+
 4. Run Your Python Script:
 
 Make sure your Python script's working directory is set correctly. If you uploaded the script and dataset within Colab, you shouldn't need to modify the working directory.
